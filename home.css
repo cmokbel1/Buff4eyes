@@ -1,0 +1,113 @@
+body {
+    font-family: Arial;
+    background-color: rgb(43, 44, 44);
+    margin: 0px;
+}
+
+
+#navbar li {
+    display: inline;
+    padding: 20px 10px;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+navbar a {
+    text-decoration: none;
+}
+
+#navbar {
+    position: fixed;
+    background-color: rgb(143, 59, 59);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px 50px;
+    
+}
+
+
+
+#button1:hover, #button2:hover, #button3:hover {
+    cursor:grab;
+    background-color:azure;
+    border: 1px solid aqua;
+    transition: all .3s ease 0s;
+}
+
+
+.banner {
+    padding-left: 25%;
+    height: 250 px;
+    image-rendering: optimizeQuality;
+    text-align: center;
+    color: rgb(163, 163, 167);
+    display: inline-block;
+    justify-content:center;
+}
+
+.banner img {
+ background-size: cover;   
+ cursor:crosshair;
+}
+
+.banner .text {
+    position: relative;
+    text-align: bottom;
+    z-index: 2;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     top: 60%;
+}
+
+
+
+h2 {
+    text-align: center;
+    background-color: rgb(143, 59, 59);;
+    color: rgb(255, 222, 35);
+    padding: 20px ;
+}
+
+.about ul{
+  list-style-type:none;
+  color: lightseagreen;
+}
+
+
+.avatar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 75%;
+  display:inline-block;
+  vertical-align:middle;
+  padding-bottom: 10px;
+}
+
+
+
+.form {
+  text-align: center;
+  font-display: inherit;
+}
+
+p {
+    color: white;
+}
+
+article {
+    color: white;
+}
+
+article a {
+    color: lightgreen;
+}
+
+.form label {
+    color: white;
+}

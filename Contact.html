@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/home.css">
+</head>
+<body>
+    <nav id="navbar">
+        <!-- this be the navigation bar-->
+        <ul>
+            <li id="button1"><a href="./Home.html">Home</a></li>
+            <li id="button2"><a href="./About.html">About</a></li>
+            <li id="button3"><a href="./Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <!-- This is the BANNER section-->
+        <img src="Images/WEBlogoBUFF.svg" width="100%" height="400" alt="branded logo">
+          <div class="text">
+            <h1><strong>Get in Touch!</strong></h1>
+          </div>
+    </div> 
+    <section class="form">
+        <h2>Contact Form</h2>
+        <form action="mailto:buff4eyes@gmail.com" method="POST" target="_blank">
+            <label for="name">Name</label>
+            <br/>
+            <input type="text" name="name" id="name" required>
+            <br/>
+            <label for="IGN">In-Game Name (If applicable)</label>
+            <br/>
+            <input type="text" name="IGN" id="IGN">
+            <br/>
+            <label for="email">E-mail or Discord ID*(handle#1234)*</label>
+            <br/>
+            <input type="text" name="email" id="email" required>
+            <br/>
+            <input type="submit" value="Talk to you soon!">
+        </form>
+    </section>
+</body>
+</html>
