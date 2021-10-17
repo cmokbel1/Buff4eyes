@@ -20,13 +20,14 @@ navbar a {
     position: fixed;
     background-color: rgb(143, 59, 59);
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: flexbox;
+    justify-content: center;
     align-items:center;
     z-index: 1;
     margin-top: 0px;
     margin-left: 0px;
-    padding: 5px 50px;
+    padding-top:5px;
+    padding-bottom:5px;
     
 }
 
