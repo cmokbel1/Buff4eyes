@@ -53,6 +53,7 @@ navbar a {
 .banner img {
  background-size: cover;   
  cursor:crosshair;
+ align-items: center;
 }
 
 .banner .text {
